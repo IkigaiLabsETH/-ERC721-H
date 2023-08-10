@@ -1,0 +1,150 @@
+{
+  "allowlistMinter": {
+    "deploy": {
+      "deployedTo": "0x1deeE7989B2B40656a47cB556694faa95B780674",
+      "deployer": "0x35CE1fb8CAa3758190ac65EDbcBC9647b8800e8f",
+      "transactionHash": "0xc5ca428cad9e0a4fdab47942e7b88dad599a5973f0aa8dc693aedd3213220564"
+    },
+    "contractName": "AllowlistMinter",
+    "contractPath": "src/minter/AllowlistMinter.sol",
+    "args": [
+      "0xC0424Bc02b0670c803453c094B5BFE32f6c916b0",
+      "0xFBe59050E9FDA1Ef2Acf0786aAa329C3152d6Ce7",
+      "0xa3c7cA6030562FaC7BA572C380212438553be587",
+      "0x517B1CA64DdAB8126640A0C92e308acd909BD774"
+    ]
+  },
+  "cre8ors": {
+    "deploy": {
+      "deployedTo": "0xC0424Bc02b0670c803453c094B5BFE32f6c916b0",
+      "deployer": "0x35CE1fb8CAa3758190ac65EDbcBC9647b8800e8f",
+      "transactionHash": "0x6b457f454d323009998f2b41a6a853b4f7abc69323e07d323f6235f12e6b0f48"
+    },
+    "contractName": "Cre8ors",
+    "contractPath": "src/Cre8ors.sol",
+    "args": [
+      "cre8ors",
+      "CRE8",
+      "0x4D977d9aEceC3776DD73F2f9080C9AF3BC31f505",
+      "0xcfBf34d385EA2d5Eb947063b67eA226dcDA3DC38",
+      "8888",
+      "888",
+      "\"(150000000000000000,0x0000000000000000000000000000000000000000,18,18446744073709551615,18446744073709551615,18446744073709551615,18446744073709551615,0x36c161febf4b54734baf31a4d6b00da9f4a1cc6eeae64bb328e095b1ab00ec96)\"",
+      "0x209511E9fe3c526C61B7691B9308830C1d1612bE"
+    ]
+  },
+  "familyFriendsMinter": {
+    "deploy": {
+      "deployedTo": "0x517B1CA64DdAB8126640A0C92e308acd909BD774",
+      "deployer": "0x35CE1fb8CAa3758190ac65EDbcBC9647b8800e8f",
+      "transactionHash": "0x40ce806f6cb027cd5399fa70c6dd9a34b08ed422527795e41839e9c6fd85574e"
+    },
+    "contractName": "FriendsAndFamilyMinter",
+    "contractPath": "src/minter/FriendsAndFamilyMinter.sol",
+    "args": [
+      "0xC0424Bc02b0670c803453c094B5BFE32f6c916b0",
+      "0xFBe59050E9FDA1Ef2Acf0786aAa329C3152d6Ce7"
+    ]
+  },
+  "hooks": {
+    "deploy": {
+      "deployedTo": "0xB805ccd51d559E573a20596603052af3aD7F3087",
+      "deployer": "0x35CE1fb8CAa3758190ac65EDbcBC9647b8800e8f",
+      "transactionHash": "0x90976d930c374073c903d3c91213239e48be7dda4f417197c07f4f84e0ad72a1"
+    },
+    "contractName": "TransferHook",
+    "contractPath": "src/Transfers.sol",
+    "args": [
+      "0xC0424Bc02b0670c803453c094B5BFE32f6c916b0"
+    ]
+  },
+  "initialize": {
+    "deploy": {
+      "deployedTo": "0x29d5465ca2bC319558F5B954FBf86FeCbf45203f",
+      "deployer": "0x35CE1fb8CAa3758190ac65EDbcBC9647b8800e8f",
+      "transactionHash": "0x13086001cc0b73ac92e60cc345da78fa21182031e6dbeede9e6da508b8d61517"
+    },
+    "contractName": "Initializer",
+    "contractPath": "src/Initializer.sol",
+    "args": null
+  },
+  "lockup": {
+    "deploy": {
+      "deployedTo": "0xf4a0fE5722022D673801aa9D3A3DD6CC3c3e737a",
+      "deployer": "0x35CE1fb8CAa3758190ac65EDbcBC9647b8800e8f",
+      "transactionHash": "0xb2674f8b11e3af819729acfd37bac2f2f909109ba20b4e6b482e6c0bd3cda761"
+    },
+    "contractName": "Lockup",
+    "contractPath": "src/utils/Lockup.sol",
+    "args": null
+  },
+  "minterUtilities": {
+    "deploy": {
+      "deployedTo": "0xFBe59050E9FDA1Ef2Acf0786aAa329C3152d6Ce7",
+      "deployer": "0x35CE1fb8CAa3758190ac65EDbcBC9647b8800e8f",
+      "transactionHash": "0xe923664cab8fe71c73d2f118ec6704e8e41c0e3530c679177d08759ffeee40f4"
+    },
+    "contractName": "MinterUtilities",
+    "contractPath": "src/utils/MinterUtilities.sol",
+    "args": [
+      "0xC0424Bc02b0670c803453c094B5BFE32f6c916b0",
+      "50000000000000000",
+      "100000000000000000",
+      "150000000000000000"
+    ]
+  },
+  "passportMinter": {
+    "deploy": {
+      "deployedTo": "0xa3c7cA6030562FaC7BA572C380212438553be587",
+      "deployer": "0x35CE1fb8CAa3758190ac65EDbcBC9647b8800e8f",
+      "transactionHash": "0xe5e77a09c57b4c5fddba4911ca12d51a4cbd49d7f9c5c5ba6bb001814310d0fb"
+    },
+    "contractName": "CollectionHolderMint",
+    "contractPath": "src/minter/CollectionHolderMint.sol",
+    "args": [
+      "0xC0424Bc02b0670c803453c094B5BFE32f6c916b0",
+      "0x31E28672F704d6F8204e41Ec0B93EE2b1172558E",
+      "0xFBe59050E9FDA1Ef2Acf0786aAa329C3152d6Ce7",
+      "0x517B1CA64DdAB8126640A0C92e308acd909BD774"
+    ]
+  },
+  "publicMinter": {
+    "deploy": {
+      "deployedTo": "0x72EccC7C5883BEeBDf1a36369C1b1282208a6058",
+      "deployer": "0x35CE1fb8CAa3758190ac65EDbcBC9647b8800e8f",
+      "transactionHash": "0x4fd0237c3292dbb0bd06a62292c32f0692262ea6ab34e436f6d3b366f48b273f"
+    },
+    "contractName": "PublicMinter",
+    "contractPath": "src/minter/PublicMinter.sol",
+    "args": [
+      "0xC0424Bc02b0670c803453c094B5BFE32f6c916b0",
+      "0xFBe59050E9FDA1Ef2Acf0786aAa329C3152d6Ce7",
+      "0xa3c7cA6030562FaC7BA572C380212438553be587",
+      "0x517B1CA64DdAB8126640A0C92e308acd909BD774"
+    ]
+  },
+  "staking": {
+    "deploy": {
+      "deployedTo": "0x9012ff2dE4aD28DD9F37aa1E6E4C984C2eE313C1",
+      "deployer": "0x35CE1fb8CAa3758190ac65EDbcBC9647b8800e8f",
+      "transactionHash": "0x9a498865cede38a2c764b7d3c8aeacd865554bffdde52a32778929874cfb2292"
+    },
+    "contractName": "Cre8ing",
+    "contractPath": "src/Cre8ing.sol",
+    "args": null
+  },
+  "subscription": {
+    "deploy": {
+      "deployedTo": "0x01a443257ad0448412CD80195F4b2D016E8D7735",
+      "deployer": "0x35CE1fb8CAa3758190ac65EDbcBC9647b8800e8f",
+      "transactionHash": "0xc41de672cec4187669270079769d9d52b78a04fc03f11d272ffb1bc9b10e89ec"
+    },
+    "contractName": "Subscription",
+    "contractPath": "src/subscription/Subscription.sol",
+    "args": [
+      "0xC0424Bc02b0670c803453c094B5BFE32f6c916b0",
+      86400,
+      38580246913
+    ]
+  }
+}
