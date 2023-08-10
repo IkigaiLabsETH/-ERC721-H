@@ -1,3 +1,16 @@
+1. Minting 2 tokens - cre8ors PFP & DNA card
+2. Creating an ERC6551 smart wallet
+3. Putting your NFT into stacking 
+4. Registering your cre8or liquid license
+5. Setting your cre8or lock-up
+
+The gas that had to be paid would include 3 transactions: 
+
+1. Minting PFP
+2. Creating a smart wallet
+3. Minting DNA card
+
+
 # CRE8ORS
 
 - the CRE8ORS
